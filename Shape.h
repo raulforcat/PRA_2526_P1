@@ -9,6 +9,7 @@ class Shape{
 		std::string color;
 	public:
 		Shape(std::string color);
+    virtual ~Shape() = default;
 		std::string get_color() const;
 		void set_color(std::string c);
 		virtual double area() const = 0;
