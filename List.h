@@ -13,7 +13,7 @@ class List {
 	    virtual T get(int pos) = 0;
 	    virtual int search(T e) = 0;
 	    virtual bool empty() = 0;
-	    virtual int size();
+	    virtual int size() = 0;
 };
 
 #endif
