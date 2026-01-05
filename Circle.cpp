@@ -41,5 +41,5 @@ void Circle::translate(double incX, double incY){
 }
 
 void Circle::print(){
-  std::cout << "Color: " << get_color() << " Centro: " << get_center() << " Radio: " << get_radius();
+  std::cout << *this << std::endl;
 }
