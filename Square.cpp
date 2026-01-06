@@ -11,10 +11,10 @@ bool Square::check(Point2D* v) {
 
 Square::Square() : Rectangle() {
   Point2D defaultVs[4] = {
-    Point2D(-1, -1),
-    Point2D(1, -1),
+    Point2D(-1, 1),
     Point2D(1, 1),
-    Point2D(-1, 1)
+    Point2D(1, -1),
+    Point2D(-1, -1)
   };
     set_vertices(defaultVs);
 }
