@@ -25,7 +25,7 @@ void Circle::set_radius(double r){
 }
 
 std::ostream& operator<<(std::ostream &out, const Circle &c){
-  return out << "(Color: " <<  c.get_color() << "; Centro: " << c.get_center() << "; Radio: " << c.get_radius() << ")";
+  return out << "Circle: (Color: " <<  c.get_color() << "; Centro: " << c.get_center() << "; Radio: " << c.get_radius() << ")";
 }
 
 double Circle::area() const{
